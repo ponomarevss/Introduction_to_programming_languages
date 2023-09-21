@@ -4,6 +4,6 @@
 -3 -> нет
 7 -> нет
 */
-Console.Write("Input first: ");
+Console.Write("Input number: ");
 int a = Convert.ToInt32(Console.ReadLine());
 Console.Write($"Is even: {a%2 == 0}");
